@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+  overflow: hidden;
+}
+
+main {
+  padding: 270px 570px;
+}
+
+.qrBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  border-radius: 15px;
+  padding: 0px 18px 18px 18px;
+  width: 315px;
+  height: 484px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.qrBox img {
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer h1 {
+  color: #1f3251;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.textContainer p {
+  color: #7b879d;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 19px;
+}
